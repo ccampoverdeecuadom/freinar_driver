@@ -252,6 +252,7 @@ class _OtpVerifyState extends State<OtpVerify> {
   }
 
   void hitService(String verificaitonPin, BuildContext context) async {
+
     if (deviceToken != null && deviceToken.length > 0) {
       SharedPreferences prefs = await SharedPreferences.getInstance();
       var url = driverlogin;
@@ -290,6 +291,7 @@ class _OtpVerifyState extends State<OtpVerify> {
                 duration: Toast.LENGTH_SHORT, gravity: Toast.BOTTOM);
             widget.onVerificationDone();
           } else {
+            widget.onVerificationDone(); // ADDED - REMOVE for PROD
             prefs.setInt("phoneverifed", 0);
             prefs.setBool("islogin", false);
             Toast.show(jsonData['message'], context,

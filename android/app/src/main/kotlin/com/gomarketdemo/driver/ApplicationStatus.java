@@ -15,7 +15,7 @@ public class ApplicationStatus extends FlutterApplication implements PluginRegis
         FirebaseOptions options = new FirebaseOptions.Builder()
                 .setApplicationId("com.gomarketdemo.driver") // Required for Analytics.
                 .setProjectId("gomarketdemo") // Required for Firebase Installations.
-                .setApiKey("put your key here") // Required for Auth.
+                .setApiKey("AIzaSyABZbNP_hhpEAV68wieDiO3jOSBJVZKvGI") // Required for Auth.
                 .build();
         FirebaseApp.initializeApp(this,options,"gomarketdemo");
         FlutterFirebaseMessagingService.setPluginRegistrant(this);

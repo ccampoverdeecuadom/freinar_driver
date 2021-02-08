@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-Color kMainColor = Color(0xffe8657e);
+Color kMainColor = Color(0xff3e145e);
 Color kRed = Color(0xffff3939);
 Color kGreen = Color(0xff008000);
 Color kDisabledColor = Color(0xff616161);

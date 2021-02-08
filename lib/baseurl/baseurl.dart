@@ -1,7 +1,7 @@
 // var baseUrl = "https://thecodecafe.in/hybrid_resturant/api/";
 // var imageBaseUrl = "https://thecodecafe.in/hybrid_resturant/";
- var baseUrl = "http://192.168.100.22/api/";
- var imageBaseUrl  ="http://192.168.100.22/";
+ var baseUrl = "http://192.168.100.51/api/";
+ var imageBaseUrl  ="http://192.168.100.51/";
 var driverlogin = baseUrl + "driverlogin";
 var delievery_boy_phone_verify = baseUrl + "delievery_boy_phone_verify";
 var userRegistration = baseUrl + "userRegistration";
@@ -55,3 +55,5 @@ var parcel_delivery_out = baseUrl + "parcel_delivery_out";
 var parcel_delivery_completed = baseUrl + "parcel_delivery_completed";
 
 var appname = 'GoMarket Dirver';
+
+final apiKey = 'AIzaSyABZbNP_hhpEAV68wieDiO3jOSBJVZKvGI';

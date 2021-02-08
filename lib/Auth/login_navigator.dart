@@ -1,5 +1,6 @@
 import 'package:driver/Auth/MobileNumber/UI/phone_number.dart';
 import 'package:driver/Auth/Verification/UI/verification_page.dart';
+import 'package:driver/Pages/Login.dart';
 import 'package:driver/Routes/routes.dart';
 import 'package:flutter/material.dart';
 
@@ -36,7 +37,7 @@ class LoginNavigator extends StatelessWidget {
           WidgetBuilder builder;
           switch (settings.name) {
             case LoginRoutes.loginRoot:
-              builder = (BuildContext _) => PhoneNumber();
+              builder = (BuildContext _) => Login();
               break;
             case LoginRoutes.verification:
               builder = (BuildContext _) => VerificationPage(

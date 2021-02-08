@@ -36,7 +36,7 @@ class _AccountPageState extends State<AccountPage>
   dynamic driverName = '';
   dynamic driverNumber = '';
   dynamic imageUrld = '';
-  static const LatLng _center = const LatLng(45.343434, -122.545454);
+  static const LatLng _center = const LatLng(-0.1081339,-78.4699519);
   CameraPosition kGooglePlex = CameraPosition(
     target: _center,
     zoom: 12.151926,
